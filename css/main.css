@@ -256,6 +256,138 @@ span {
 .send:focus {
   outline: none; }
 
+@media only screen and (max-width: 1025px) {
+  .contact-form {
+    margin-left: 1%; } }
+
+@media only screen and (max-width: 940px) {
+  .contact-text {
+    width: 50%;
+    display: block;
+    margin-left: 25%;
+    text-align: center; }
+  .contact-form {
+    width: 50%;
+    display: block;
+    margin-left: 25%;
+    margin-top: 10px; } }
+
+@media only screen and (max-width: 840px) {
+  .aboutme {
+    margin-top: -40px; } }
+
+@media only screen and (max-width: 740px) {
+  .whatis {
+    margin-top: 80px; }
+  .guru-text {
+    font-size: 20px;
+    line-height: 20px; } }
+
+@media only screen and (max-width: 700px) {
+  .aboutme {
+    font-size: 38px; }
+  .mystory {
+    margin-top: -15px; }
+  .image {
+    margin-top: 75px; }
+  .how-it-works {
+    margin-top: 40px; }
+  .icon {
+    width: 80px;
+    height: 80px; }
+  .one, .two, .three {
+    margin-top: 20px; }
+  .steps-text {
+    font-size: 17px; }
+  .contact-form {
+    width: 30%;
+    margin-left: 16%; } }
+
+@media only screen and (max-width: 640px) {
+  .image img {
+    width: 70%;
+    height: 50%; }
+  .aboutme {
+    font-size: 32px; }
+  .mystory {
+    font-size: 14px;
+    margin-top: 5px; }
+  span {
+    font-size: 16px; } }
+
+@media only screen and (max-width: 560px) {
+  .social {
+    margin-right: 95px; }
+  .services {
+    height: 1000px; }
+  .one, .two, .three {
+    width: 90%;
+    display: block; }
+  .first-main {
+    height: 850px; }
+  .whatitis {
+    height: 850px; }
+  .about {
+    height: 850px; }
+  .icon {
+    margin-left: 43%; }
+  .steps-text {
+    margin-left: 15%; }
+  .contact-form {
+    width: 80%;
+    margin-left: 17%; }
+  .contact-form input, .contact-form textarea {
+    width: 350px; }
+  .send {
+    width: 358px; }
+  .contactme {
+    font-size: 26px; }
+  .text {
+    font-size: 22px; } }
+
+@media only screen and (max-width: 460px) {
+  .contact-form {
+    margin-left: 11%; }
+  .social {
+    margin-right: 70px; }
+  .image img {
+    width: 75%;
+    margin-top: -16px; }
+  .aboutme {
+    font-size: 26px; } }
+
+@media only screen and (max-width: 400px) {
+  .social {
+    margin-right: 60px; }
+  h1 {
+    font-size: 60px; }
+  .def {
+    font-size: 22px; }
+  h4 {
+    font-size: 24px; }
+  .contact-form input, .contact-form textarea {
+    width: 300px; }
+  .whatitis {
+    height: 750px; }
+  .send {
+    width: 308px; }
+  .guru-text {
+    width: 80%;
+    margin-left: 10%; }
+  .contact-text {
+    width: 70%;
+    margin-left: 15%; }
+  .image {
+    width: 50%;
+    display: block;
+    margin-left: 25%;
+    margin-top: 60px; }
+  .text-about-me {
+    width: 70%;
+    display: block;
+    margin-left: 15%;
+    margin-top: 100px; } }
+
 /*html {
   width: 100%;
   margin: 0 auto;
