@@ -1,8 +1,8 @@
 .contact {
   width: 100%;
   height: 700px;
-  border:solid 2px #52908B;
   display: block;
+  border-top: 2px solid #4F2841;
 
 }
 
@@ -11,15 +11,30 @@
   display: inline-block;
   vertical-align: top;
   margin-left: 8%;
-  margin-top: 30px;
+  margin-top: 80px;
 
 }
 
-.contact-form {
+.contactme {
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  font-size: 28px;
+  color: #4F2841;
+  text-align: center;
+
+}
+
+.text{
+    font-family: 'Raleway', sans-serif;
+    font-size: 24px;
+    color: #4F2841;
+}
+.contact-form{
   width: 40%;
   display: inline-block;
   vertical-align: top;
-
+  margin-left: 6%;
+  margin-top: 80px;
 }
 
 .contact-form input {
@@ -27,20 +42,24 @@
   height: 40px;
   margin-top: 20px;
   border-radius: 3px;
-  border: solid 2px #52908B;
+  border: solid 2px #4F2841;
 }
 
 .contact-form textarea {
   width: 450px;
   margin-top: 20px;
   border-radius: 3px;
-  border: solid 2px #52908B;
+  border: solid 2px #4F2841;
 }
-button {
+.send{
   width: 458px;
   height: 40px;
-  background-color: #52908B;
+  background-color: #4F2841;
   padding: 5px;
-
-
+  margin-top: 10px;
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
 }
+.send:focus {
+  outline: none; }

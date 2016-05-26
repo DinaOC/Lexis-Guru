@@ -7,7 +7,7 @@ h1 {
   text-align: center;
   font-family: 'Raleway', sans-serif;
   font-size: 70px;
-  margin-top: 80px;
+  margin-top: 60px;
   letter-spacing: 1px; }
 
 #main-nav {
@@ -33,6 +33,9 @@ a {
   font-family: 'Raleway', sans-serif;
   font-weight: bold; }
 
+a:hover {
+  color: #E7472E; }
+
 .me {
   float: left;
   margin-left: 30px;
@@ -54,7 +57,21 @@ h4 {
   font-weight: lighter;
   font-family: 'Raleway', sans-serif;
   text-align: center;
-  margin-top: 200px; }
+  margin-top: 150px; }
+
+.icons {
+  width: 91%; }
+
+.social img {
+  width: 45px;
+  height: 45px;
+  margin-right: 3px;
+  margin-top: -10px; }
+
+.orange {
+  color: #E7472E;
+  font-size: 26px;
+  font-family: 'Raleway', sans-serif; }
 
 .whatis {
   text-align: center;
@@ -93,13 +110,13 @@ h4 {
   display: block; }
 
 .text-about-me {
-  width: 43%;
+  width: 40%;
   display: inline-block;
   vertical-align: top;
   margin-top: 100px; }
 
 .aboutme {
-  font-size: 40px;
+  font-size: 43px;
   font-family: 'Raleway', sans-serif;
   font-weight: lighter;
   text-align: left;
@@ -171,7 +188,7 @@ span {
 .icon {
   width: 130px;
   height: 130px;
-  margin-left: 33%; }
+  margin-left: 32%; }
 
 .steps-text {
   font-size: 18px;
@@ -179,39 +196,65 @@ span {
   color: #4F2841;
   font-family: 'Raleway', sans-serif;
   padding: 1px;
-  margin-left: 20%; }
+  margin-left: 17%; }
 
 .contact {
   width: 100%;
   height: 700px;
-  border: solid 2px #52908B;
-  display: block; }
+  display: block;
+  border-top: 2px solid #4F2841; }
 
 .contact-text {
   width: 40%;
   display: inline-block;
   vertical-align: top;
   margin-left: 8%;
-  margin-top: 30px; }
+  margin-top: 80px; }
+
+.contactme {
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  font-size: 28px;
+  color: #4F2841;
+  text-align: center; }
+
+.text {
+  font-family: 'Raleway', sans-serif;
+  font-size: 24px;
+  color: #4F2841; }
+
+.contact-form {
+  width: 40%;
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 6%;
+  margin-top: 80px; }
 
 .contact-form input {
   width: 450px;
   height: 40px;
   margin-top: 20px;
   border-radius: 3px;
-  border: solid 2px #52908B; }
+  border: solid 2px #4F2841; }
 
 .contact-form textarea {
   width: 450px;
   margin-top: 20px;
   border-radius: 3px;
-  border: solid 2px #52908B; }
+  border: solid 2px #4F2841; }
 
-button {
+.send {
   width: 458px;
   height: 40px;
-  background-color: #52908B;
-  padding: 5px; }
+  background-color: #4F2841;
+  padding: 5px;
+  margin-top: 10px;
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px; }
+
+.send:focus {
+  outline: none; }
 
 /*html {
   width: 100%;
